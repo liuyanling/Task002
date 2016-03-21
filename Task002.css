@@ -1,0 +1,152 @@
+*{
+   margin:0px;
+   padding:0px;
+}
+.main{
+    background-color:lightgrey;
+    width: 80%;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+section{
+    width: 100%;
+}
+header img{
+    width: 120px;
+    height: 60px;
+    float:left;
+    margin: 10px 10px;
+}
+header ul{
+    list-style: none;
+    margin: 30px;
+    float:right;
+}
+header li{
+    float:left;
+
+}
+header a,footer{
+    color: white;
+}
+header a:link,a:visited{
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+header a:hover,a:active{
+    background-color: darkred;
+}
+.content_1,.content_2,.content_3,.content_4,.content_5{
+    background-color: white;
+    margin: 40px;
+    padding:20px;
+    border-style:outset;
+}
+section  h2{
+    font-weight: bolder;
+    margin-top: 20px;
+}
+section  h3,section pre {
+    margin: 20px 0px;
+    color: slategray;
+}
+.content_5 p{
+    color: slategray;
+}
+section p,ul{
+ 
+    line-height:30px;
+}
+section ol{
+    padding-left: 40px;
+	line-height:30px;
+
+}
+.content_2 ul,.content_3 ul{
+    list-style: none;
+}
+.content_3 img{
+    width: 170px;
+    height: 140px;
+    margin: 0px 15px 15px 15px;
+}
+.content_3 li{
+    margin: 20px;
+    width: 200px;
+    height:200px;
+    border:1px solid darkgrey ;
+}
+.content_3 p{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.content_4 p{
+    text-indent: 0px;
+}
+#table-main{
+    width: 100%;
+    border-collapse: collapse;
+}
+#table-main th,#table-main td{
+    border: 1px solid darkgrey;
+    font-size: 1em;
+}
+#table-main th{
+    text-align: left;
+    padding: 5px ;
+    background-color: black;
+    color: white;
+}
+.table-sum{
+    background-color: darkgrey;
+}
+form {
+    margin: 20px;
+    line-height: 35px;
+}
+label{
+    width: 150px;
+    margin-left: 200px;
+    text-align: right;
+    float: left;
+}
+form p{
+    position: relative;
+    left: 350px;
+    padding: 40px 5px;
+}
+[type="text"],[type="password"]{
+    float: left;
+    margin-left: 50px;
+    height:23px ;
+}
+.select_a{
+    float: left;
+    margin-left: 50px;
+}
+textarea{
+    float: left;
+    margin-left: 50px;
+}
+[type="submit"]{
+    width: 100%;
+    height: 50px;
+    background-color: royalblue ;
+    border-radius:10px;
+    font-size: large;
+    margin-top: 30px;
+}
+footer{
+    width:100%;
+    background-color: black;
+    text-align: center;
+    padding:35px 0px;
+}
